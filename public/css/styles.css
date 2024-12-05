@@ -1,0 +1,56 @@
+/* Réinitialisation des marges et définition de la taille de police de base */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+/* Effet de transition douce pour les liens de navigation */
+.nav-link {
+  transition: 0.3s;
+}
+
+/* Effet de transparence au survol des liens de navigation */
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+/* Effet de transparence au survol des légendes de carrousel */
+.carousel-caption:hover {
+  opacity: 0.8;
+}
+
+/* 
+ * Styles pour les images de carrousel 
+ * - Limitation de la hauteur maximale
+ * - Application d'un effet de flou pour adoucir les images
+ */
+.carousel-inner img {
+  max-height: 500px;
+  filter: blur(10px);
+}
+
+/* 
+ * Style pour l'indicateur de type de handicap sur la page d'accueil
+ * - Positionnement absolu
+ * - Fond semi-transparent blanc
+ * - Style de texte mis en évidence
+ */
+.article-disability-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(255 255 255 / 70%);
+  padding: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* 
+ * Fond semi-transparent noir pour le conteneur de formulaire d'article
+ * Permet de mettre en évidence le formulaire sur un arrière-plan sombre
+ */
+#article-form-container {
+  background-color: rgb(0 0 0 / 80%);
+}
