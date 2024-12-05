@@ -17,32 +17,6 @@ HandiBlog est un projet de blog dédié à la publication d'articles et de resso
 - **Autres** : JavaScript, HTML
 - **Outils de développement** : Nodemon
 
-## Structure du projet
-
-HandiBlog-fullstack/
-┣ db/
-┃ ┗ articles.sqlite
-┣ models/
-┃ ┗ articles.js
-┣ public/
-┃ ┣ css/
-┃ ┃ ┗ styles.css
-┃ ┣ images/
-┃ ┃ ┗ 600x400.svg
-┃ ┗ js/
-┃ ┗ admin-front.js
-┣ routes/
-┃ ┣ admin.js
-┃ ┗ index.js
-┣ views/
-┃ ┣ admin.ejs
-┃ ┣ article.ejs
-┃ ┣ form.ejs
-┃ ┗ index.ejs
-┣ app.js
-┣ package-lock.json
-┣ package.json
-┗ README.md
 
 ## Installation et configuration
 
